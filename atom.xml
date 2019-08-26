@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzemin123.github.io</id>
     <title>Gridea</title>
-    <updated>2019-08-01T12:28:21.644Z</updated>
+    <updated>2019-08-26T13:28:03.407Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzemin123.github.io"/>
     <link rel="self" href="https://sunzemin123.github.io/atom.xml"/>
@@ -11,16 +11,14 @@
     <icon>https://sunzemin123.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://sunzemin123.github.io/post/hello-gridea</id>
-        <link href="https://sunzemin123.github.io/post/hello-gridea">
+        <title type="html"><![CDATA[笨蛋翠花的一天]]></title>
+        <id>https://sunzemin123.github.io/post/cuihua</id>
+        <link href="https://sunzemin123.github.io/post/cuihua">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2019-08-01T12:38:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>傻傻的翠花</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<p>傻傻的翠花</p>
 ]]></content>
     </entry>
 </feed>
