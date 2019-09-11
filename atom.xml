@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzemin123.github.io</id>
     <title>Gridea</title>
-    <updated>2019-09-11T19:08:24.541Z</updated>
+    <updated>2019-09-11T19:15:05.498Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzemin123.github.io"/>
     <link rel="self" href="https://sunzemin123.github.io/atom.xml"/>
@@ -15,17 +15,17 @@
         <id>https://sunzemin123.github.io/post/veins</id>
         <link href="https://sunzemin123.github.io/post/veins">
         </link>
-        <updated>2019-08-27T07:36:39.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="安装">安装</h1>
-<p>sumo-lauchd开启sumo与omnet++的连接，然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效<br>
+        <updated>2019-08-26T19:36:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>##安装<br>
+sumo-lauchd开启sumo与omnet++的连接，然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效<br>
 <a href="https://blog.csdn.net/nhgytftdtsres/article/details/80610151">原文链接</a></p>
 <h1 id="omnet的ide窗口中文件介绍">OMNeT++的IDE窗口中文件介绍</h1>
 <ul>
 <li><strong>antenna.xml:</strong> 车辆天线配置</li>
 </ul>
 ]]></summary>
-        <content type="html"><![CDATA[<h1 id="安装">安装</h1>
-<p>sumo-lauchd开启sumo与omnet++的连接，然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效<br>
+        <content type="html"><![CDATA[<p>##安装<br>
+sumo-lauchd开启sumo与omnet++的连接，然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效<br>
 <a href="https://blog.csdn.net/nhgytftdtsres/article/details/80610151">原文链接</a></p>
 <h1 id="omnet的ide窗口中文件介绍">OMNeT++的IDE窗口中文件介绍</h1>
 <ul>
@@ -38,7 +38,7 @@
         <id>https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang</id>
         <link href="https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang">
         </link>
-        <updated>2019-08-26T14:04:27.000Z</updated>
+        <updated>2019-08-26T02:04:27.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="installation">Installation</h2>
 <ul>
 <li>$ cd /Users/sunzemin/omnetpp-5.5.1</li>
