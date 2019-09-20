@@ -5,14 +5,14 @@
     
 <meta charset="utf-8" >
 
-<title>Veins入门 | Gridea</title>
+<title>Veins入门-虚拟机安装 | Gridea</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://sunzemin123.github.io/favicon.ico?v=1568840765041">
+<link rel="shortcut icon" href="https://sunzemin123.github.io/favicon.ico?v=1568948365756">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://sunzemin123.github.io/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://sunzemin123.github.io">
-        <img class="avatar" src="https://sunzemin123.github.io/images/avatar.png?v=1568840765041" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://sunzemin123.github.io/images/avatar.png?v=1568948365756" alt="" width="32px" height="32px">
       </a>
       <a href="https://sunzemin123.github.io">
         <h1 class="site-title">Gridea</h1>
@@ -74,22 +74,28 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">Veins入门</h2>
+          <h2 class="post-title">Veins入门-虚拟机安装</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-08-26</span>
+            <span><i class="icon-calendar-outline"></i> 2019-08-24</span>
             
           </div>
           <div class="post-content">
-            <p>##安装<br>
-sumo-lauchd开启sumo与omnet++的连接，然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效<br>
-<a href="https://blog.csdn.net/nhgytftdtsres/article/details/80610151">原文链接</a></p>
-<h1 id="omnet的ide窗口中文件介绍">OMNeT++的IDE窗口中文件介绍</h1>
+            <h2 id="安装">安装</h2>
+<p><a href="https://blog.csdn.net/nhgytftdtsres/article/details/80610151">原文链接</a></p>
+<ol>
+<li>sumo-lauchd开启sumo与omnet++的连接<br>
+<img src="https://sunzemin123.github.io/post-images/1568920197334.png" alt=""><br>
+<img src="https://sunzemin123.github.io/post-images/1568920343163.png" alt=""></li>
+<li>然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效</li>
+</ol>
+<h2 id="omnet的ide窗口中文件介绍">OMNeT++的IDE窗口中文件介绍</h2>
 <ul>
 <li><strong>antenna.xml:</strong> 车辆天线配置</li>
 </ul>
 <!--more-->
 <ul>
-<li><strong>config.xml:</strong> 物理层参数配置</li>
+<li><strong>config.xml:</strong> 物理层参数配置<br>
+config.xml：配置物理层无线电传播相关参数，如示例中将信号路径衰落的模型配置为“SmiplePathlossModel”，障碍物引起的信号衰落模型设置为“SimpleObstacleShadowing”，一般使用默认的即可；</li>
 </ul>
 <!--more-->
 <ul>
