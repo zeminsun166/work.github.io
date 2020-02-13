@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzemin123.github.io</id>
     <title>Gridea</title>
-    <updated>2019-12-28T01:51:02.646Z</updated>
+    <updated>2020-02-13T00:59:58.929Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzemin123.github.io"/>
     <link rel="self" href="https://sunzemin123.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://sunzemin123.github.io/images/avatar.png</logo>
     <icon>https://sunzemin123.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[2019年终总结]]></title>
         <id>https://sunzemin123.github.io/post/2019-nian-zhong-zong-jie</id>
@@ -69,8 +69,8 @@
 <p><a href="https://blog.csdn.net/nhgytftdtsres/article/details/80610151">原文链接</a></p>
 <ol>
 <li>sumo-lauchd开启sumo与omnet++的连接<br>
-<img src="https://sunzemin123.github.io/post-images/1568920197334.png" alt=""><br>
-<img src="https://sunzemin123.github.io/post-images/1568920343163.png" alt=""></li>
+<img src="https://sunzemin123.github.io/post-images/1568920197334.png" alt="" loading="lazy"><br>
+<img src="https://sunzemin123.github.io/post-images/1568920343163.png" alt="" loading="lazy"></li>
 <li>然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效</li>
 </ol>
 <h2 id="omnet的ide窗口中文件介绍">OMNeT++的IDE窗口中文件介绍</h2>
@@ -82,8 +82,8 @@
 <p><a href="https://blog.csdn.net/nhgytftdtsres/article/details/80610151">原文链接</a></p>
 <ol>
 <li>sumo-lauchd开启sumo与omnet++的连接<br>
-<img src="https://sunzemin123.github.io/post-images/1568920197334.png" alt=""><br>
-<img src="https://sunzemin123.github.io/post-images/1568920343163.png" alt=""></li>
+<img src="https://sunzemin123.github.io/post-images/1568920197334.png" alt="" loading="lazy"><br>
+<img src="https://sunzemin123.github.io/post-images/1568920343163.png" alt="" loading="lazy"></li>
 <li>然后点击第一个OMNeT++ IDE 打开OMNET++软件，点击进入veins--&gt;example--&gt;veins，右击omnetpp.ini--&gt;Run As--&gt;OMNet++ Simulation进入OMNet++ Qtenv界面，在Set Up Inifile Configure中，config name随便选（只是测试是否成功）点击OK，最后点击左上角的RUN或者FAST即可看到效</li>
 </ol>
 <h2 id="omnet的ide窗口中文件介绍">OMNeT++的IDE窗口中文件介绍</h2>
@@ -129,7 +129,7 @@ export QT_PLUGIN_PATH=</annotation></semantics></math></span><span class="katex-
 </li>
 </ul>
 <p>When open the IDE from the finder, it is uable to run any simulation and receive the following error at startup.<br>
-<img src="https://sunzemin123.github.io/post-images/1568229694810.jpg" alt=""></p>
+<img src="https://sunzemin123.github.io/post-images/1568229694810.jpg" alt="" loading="lazy"></p>
 <p>It even worse when runing the simulation:<br>
 <em>This application failed to start because it could not find or load the Qt platform plugin &quot;cocoa&quot; in &quot;&quot;.<br>
 Reinstalling the application may fix this problem.</em></p>
@@ -172,7 +172,7 @@ export QT_PLUGIN_PATH=</annotation></semantics></math></span><span class="katex-
 </li>
 </ul>
 <p>When open the IDE from the finder, it is uable to run any simulation and receive the following error at startup.<br>
-<img src="https://sunzemin123.github.io/post-images/1568229694810.jpg" alt=""></p>
+<img src="https://sunzemin123.github.io/post-images/1568229694810.jpg" alt="" loading="lazy"></p>
 <p>It even worse when runing the simulation:<br>
 <em>This application failed to start because it could not find or load the Qt platform plugin &quot;cocoa&quot; in &quot;&quot;.<br>
 Reinstalling the application may fix this problem.</em></p>
