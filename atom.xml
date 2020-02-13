@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzemin123.github.io</id>
     <title>Gridea</title>
-    <updated>2020-02-13T01:19:51.630Z</updated>
+    <updated>2020-02-13T01:20:31.885Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzemin123.github.io"/>
     <link rel="self" href="https://sunzemin123.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://sunzemin123.github.io/post/shuo-shuo-202002</id>
         <link href="https://sunzemin123.github.io/post/shuo-shuo-202002">
         </link>
-        <updated>2020-02-11T23:04:50.000Z</updated>
+        <updated>2020-02-11T10:04:50.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[爱在吉大]]></title>
