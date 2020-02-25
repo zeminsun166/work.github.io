@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzemin123.github.io</id>
     <title>Gridea</title>
-    <updated>2020-02-25T20:56:06.074Z</updated>
+    <updated>2020-02-25T21:01:43.235Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzemin123.github.io"/>
     <link rel="self" href="https://sunzemin123.github.io/atom.xml"/>
@@ -12,53 +12,55 @@
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[抗击疫情，感悟生命]]></title>
-        <id>https://sunzemin123.github.io/post/kang-ji-yi-qing-gan-wu-sheng-ming</id>
-        <link href="https://sunzemin123.github.io/post/kang-ji-yi-qing-gan-wu-sheng-ming">
+        <id>https://sunzemin123.github.io/post/kang-ji-yi-qing-gan-wu-sheng-ming/</id>
+        <link href="https://sunzemin123.github.io/post/kang-ji-yi-qing-gan-wu-sheng-ming/">
         </link>
         <updated>2020-02-21T20:09:29.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[说说-期盼春天（2020.02）]]></title>
-        <id>https://sunzemin123.github.io/post/Moments-202002</id>
-        <link href="https://sunzemin123.github.io/post/Moments-202002">
+        <id>https://sunzemin123.github.io/post/Moments-202002/</id>
+        <link href="https://sunzemin123.github.io/post/Moments-202002/">
         </link>
         <updated>2020-02-07T02:04:50.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[爱在吉大]]></title>
-        <id>https://sunzemin123.github.io/post/ai-zai-jida</id>
-        <link href="https://sunzemin123.github.io/post/ai-zai-jida">
+        <id>https://sunzemin123.github.io/post/ai-zai-jida/</id>
+        <link href="https://sunzemin123.github.io/post/ai-zai-jida/">
         </link>
         <updated>2019-12-06T15:37:01.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[我们终于一起走过]]></title>
-        <id>https://sunzemin123.github.io/post/wo-men-zhong-yu-yi-qi-zou-guo</id>
-        <link href="https://sunzemin123.github.io/post/wo-men-zhong-yu-yi-qi-zou-guo">
+        <id>https://sunzemin123.github.io/post/wo-men-zhong-yu-yi-qi-zou-guo/</id>
+        <link href="https://sunzemin123.github.io/post/wo-men-zhong-yu-yi-qi-zou-guo/">
         </link>
         <updated>2019-11-19T18:54:21.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[树]]></title>
-        <id>https://sunzemin123.github.io/post/ri-ji</id>
-        <link href="https://sunzemin123.github.io/post/ri-ji">
+        <id>https://sunzemin123.github.io/post/ri-ji/</id>
+        <link href="https://sunzemin123.github.io/post/ri-ji/">
         </link>
         <updated>2019-11-08T19:56:42.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sumo 安装]]></title>
-        <id>https://sunzemin123.github.io/post/sumo-an-zhuang</id>
-        <link href="https://sunzemin123.github.io/post/sumo-an-zhuang">
+        <id>https://sunzemin123.github.io/post/sumo-an-zhuang/</id>
+        <link href="https://sunzemin123.github.io/post/sumo-an-zhuang/">
         </link>
-        <updated>2019-09-08T05:53:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://sumo.dlr.de/docs/Installing/MacOS_Build.html">reference</a><br>
+        <updated>2019-09-07T05:53:41.000Z</updated>
+        <summary type="html"><![CDATA[<!-- -->
+<p><a href="https://sumo.dlr.de/docs/Installing/MacOS_Build.html">reference</a><br>
 检查python版本：$ python --version</p>
 <ul>
 <li>xcode-select: error: command line tools are already installed, use &quot;Software Update&quot; to install updates</li>
 </ul>
 <p>open -e ~/.bash_profile</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://sumo.dlr.de/docs/Installing/MacOS_Build.html">reference</a><br>
+        <content type="html"><![CDATA[<!-- -->
+<p><a href="https://sumo.dlr.de/docs/Installing/MacOS_Build.html">reference</a><br>
 检查python版本：$ python --version</p>
 <ul>
 <li>xcode-select: error: command line tools are already installed, use &quot;Software Update&quot; to install updates</li>
@@ -68,8 +70,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Veins入门-虚拟机安装]]></title>
-        <id>https://sunzemin123.github.io/post/veins</id>
-        <link href="https://sunzemin123.github.io/post/veins">
+        <id>https://sunzemin123.github.io/post/veins/</id>
+        <link href="https://sunzemin123.github.io/post/veins/">
         </link>
         <updated>2019-08-23T19:36:39.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="安装">安装</h2>
@@ -101,8 +103,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[OmNet++安装]]></title>
-        <id>https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang</id>
-        <link href="https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang">
+        <id>https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang/</id>
+        <link href="https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang/">
         </link>
         <updated>2019-08-18T02:04:27.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="installation">Installation</h2>
