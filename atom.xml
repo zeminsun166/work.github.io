@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzemin123.github.io</id>
     <title>Gridea</title>
-    <updated>2020-08-30T02:19:27.774Z</updated>
+    <updated>2020-09-07T13:42:45.763Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzemin123.github.io"/>
     <link rel="self" href="https://sunzemin123.github.io/atom.xml"/>
@@ -10,27 +10,6 @@
     <logo>https://sunzemin123.github.io/images/avatar.png</logo>
     <icon>https://sunzemin123.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[愿你]]></title>
-        <id>https://sunzemin123.github.io/post/wu/</id>
-        <link href="https://sunzemin123.github.io/post/wu/">
-        </link>
-        <updated>2020-03-23T09:08:20.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[书摘]]></title>
-        <id>https://sunzemin123.github.io/post/shu-zhai/</id>
-        <link href="https://sunzemin123.github.io/post/shu-zhai/">
-        </link>
-        <updated>2020-02-27T17:30:24.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[抗击疫情，感悟生命]]></title>
-        <id>https://sunzemin123.github.io/post/kang-ji-yi-qing-gan-wu-sheng-ming/</id>
-        <link href="https://sunzemin123.github.io/post/kang-ji-yi-qing-gan-wu-sheng-ming/">
-        </link>
-        <updated>2020-02-21T07:09:29.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[《请原谅》]]></title>
         <id>https://sunzemin123.github.io/post/2020-nian-2-yue-25-ri/</id>
@@ -126,6 +105,101 @@
 <ul>
 <li><strong>antenna.xml:</strong> 车辆天线配置</li>
 </ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OmNet++安装]]></title>
+        <id>https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang/</id>
+        <link href="https://sunzemin123.github.io/post/omnetzai-mac-zhong-an-zhuang/">
+        </link>
+        <updated>2019-08-17T02:04:27.000Z</updated>
+        <summary type="html"><![CDATA[<!--d-->
+<h2 id="installation">Installation</h2>
+<ul>
+<li>$ cd /Users/sunzemin/omnetpp-5.5.1</li>
+<li>$ . setenv</li>
+<li>environment configuration：<br>
+$ export PATH=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>H</mi><mi>O</mi><mi>M</mi><mi>E</mi><mi mathvariant="normal">/</mi><mi>o</mi><mi>m</mi><mi>n</mi><mi>e</mi><mi>t</mi><mi>p</mi><mi>p</mi><mo>−</mo><mn>5.5.1</mn><mi mathvariant="normal">/</mi><mi>b</mi><mi>i</mi><mi>n</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">HOME/omnetpp-5.5.1/bin:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord">/</span><span class="mord mathdefault">o</span><span class="mord mathdefault">m</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">t</span><span class="mord mathdefault">p</span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">1</span><span class="mord">/</span><span class="mord mathdefault">b</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span>HOME/omnetpp-5.5.1/tools/macosx/bin:$PATH</li>
+</ul>
+<p>$ export QT_PLUGIN_PATH=$HOME/omnetpp-5.5.1/tools/macosx/plugins<br>
+(folder must be in your home directory)</p>
+<ul>
+<li>configuration: $ ./configure</li>
+<li>compling: $ make</li>
+<li>start DE $ omnetpp</li>
+<li>$ make install-menu-item<br>
+$ make install-desktop-icon</li>
+</ul>
+<h2 id="environment-variables-configuration">Environment variables configuration</h2>
+<p>写在bash_profile中配置环境变量<br>
+touch ~/.bash_profile<br>
+open -e ~/.bash_profile<br>
+export PATH=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>H</mi><mi>O</mi><mi>M</mi><mi>E</mi><mi mathvariant="normal">/</mi><mi>o</mi><mi>m</mi><mi>n</mi><mi>e</mi><mi>t</mi><mi>p</mi><mi>p</mi><mo>−</mo><mn>5.5.1</mn><mi mathvariant="normal">/</mi><mi>b</mi><mi>i</mi><mi>n</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">HOME/omnetpp-5.5.1/bin:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord">/</span><span class="mord mathdefault">o</span><span class="mord mathdefault">m</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">t</span><span class="mord mathdefault">p</span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">1</span><span class="mord">/</span><span class="mord mathdefault">b</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span>HOME/omnetpp-5.5.1/tools/macosx/bin:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mi>A</mi><mi>T</mi><mi>H</mi><mi>e</mi><mi>x</mi><mi>p</mi><mi>o</mi><mi>r</mi><mi>t</mi><mi>Q</mi><msub><mi>T</mi><mi>P</mi></msub><mi>L</mi><mi>U</mi><mi>G</mi><mi>I</mi><msub><mi>N</mi><mi>P</mi></msub><mi>A</mi><mi>T</mi><mi>H</mi><mo>=</mo></mrow><annotation encoding="application/x-tex">PATH
+export QT_PLUGIN_PATH=</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault">e</span><span class="mord mathdefault">x</span><span class="mord mathdefault">p</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">t</span><span class="mord mathdefault">Q</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">L</span><span class="mord mathdefault" style="margin-right:0.10903em;">U</span><span class="mord mathdefault">G</span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span></span></span></span>HOME/omnetpp-5.5.1/tools/macosx/plugins</p>
+<p>echo $PATH</p>
+<h2 id="a-simple-example">A simple example:</h2>
+<p><a href="https://blog.csdn.net/sinat_15102109/article/details/45751697">reference:</a></p>
+<ul>
+<li>
+<h3 id="open-the-ied-from-the-terminal-with-the-script">Open the IED from the terminal with the script</h3>
+</li>
+</ul>
+<p>When open the IDE from the finder, it is uable to run any simulation and receive the following error at startup.</p>
+<figure data-type="image" tabindex="1"><img src="https://sunzemin123.github.io/post-images/1568229694810.jpg" alt="" loading="lazy"></figure>
+<p>It even worse when runing the simulation:<br>
+<em>This application failed to start because it could not find or load the Qt platform plugin &quot;cocoa&quot; in &quot;&quot;.<br>
+Reinstalling the application may fix this problem.</em></p>
+<p><em>Simulation terminated with exit code: 134<br>
+Working directory:/Users/sunzemin/Documents/OMNeTWorkspace/samples<br>
+Command line: samples -m omnetpp.ini</em></p>
+<p><em>Environment variables:<br>
+PATH=/Users/sunzemin/omnetpp-5.5.1/bin::/usr/bin:/bin:/usr/sbin:/sbin<br>
+DYLDLIBRARYPATH=/Users/sunzemin/omnetpp-5.5.1/lib::<br>
+OMNETPPIMAGEPATH=/Users/sunzemin/omnetpp-5.5.1/images</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<!--d-->
+<h2 id="installation">Installation</h2>
+<ul>
+<li>$ cd /Users/sunzemin/omnetpp-5.5.1</li>
+<li>$ . setenv</li>
+<li>environment configuration：<br>
+$ export PATH=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>H</mi><mi>O</mi><mi>M</mi><mi>E</mi><mi mathvariant="normal">/</mi><mi>o</mi><mi>m</mi><mi>n</mi><mi>e</mi><mi>t</mi><mi>p</mi><mi>p</mi><mo>−</mo><mn>5.5.1</mn><mi mathvariant="normal">/</mi><mi>b</mi><mi>i</mi><mi>n</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">HOME/omnetpp-5.5.1/bin:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord">/</span><span class="mord mathdefault">o</span><span class="mord mathdefault">m</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">t</span><span class="mord mathdefault">p</span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">1</span><span class="mord">/</span><span class="mord mathdefault">b</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span>HOME/omnetpp-5.5.1/tools/macosx/bin:$PATH</li>
+</ul>
+<p>$ export QT_PLUGIN_PATH=$HOME/omnetpp-5.5.1/tools/macosx/plugins<br>
+(folder must be in your home directory)</p>
+<ul>
+<li>configuration: $ ./configure</li>
+<li>compling: $ make</li>
+<li>start DE $ omnetpp</li>
+<li>$ make install-menu-item<br>
+$ make install-desktop-icon</li>
+</ul>
+<h2 id="environment-variables-configuration">Environment variables configuration</h2>
+<p>写在bash_profile中配置环境变量<br>
+touch ~/.bash_profile<br>
+open -e ~/.bash_profile<br>
+export PATH=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>H</mi><mi>O</mi><mi>M</mi><mi>E</mi><mi mathvariant="normal">/</mi><mi>o</mi><mi>m</mi><mi>n</mi><mi>e</mi><mi>t</mi><mi>p</mi><mi>p</mi><mo>−</mo><mn>5.5.1</mn><mi mathvariant="normal">/</mi><mi>b</mi><mi>i</mi><mi>n</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">HOME/omnetpp-5.5.1/bin:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord">/</span><span class="mord mathdefault">o</span><span class="mord mathdefault">m</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">t</span><span class="mord mathdefault">p</span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mord">.</span><span class="mord">5</span><span class="mord">.</span><span class="mord">1</span><span class="mord">/</span><span class="mord mathdefault">b</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span>HOME/omnetpp-5.5.1/tools/macosx/bin:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mi>A</mi><mi>T</mi><mi>H</mi><mi>e</mi><mi>x</mi><mi>p</mi><mi>o</mi><mi>r</mi><mi>t</mi><mi>Q</mi><msub><mi>T</mi><mi>P</mi></msub><mi>L</mi><mi>U</mi><mi>G</mi><mi>I</mi><msub><mi>N</mi><mi>P</mi></msub><mi>A</mi><mi>T</mi><mi>H</mi><mo>=</mo></mrow><annotation encoding="application/x-tex">PATH
+export QT_PLUGIN_PATH=</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault">e</span><span class="mord mathdefault">x</span><span class="mord mathdefault">p</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">t</span><span class="mord mathdefault">Q</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">L</span><span class="mord mathdefault" style="margin-right:0.10903em;">U</span><span class="mord mathdefault">G</span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span></span></span></span>HOME/omnetpp-5.5.1/tools/macosx/plugins</p>
+<p>echo $PATH</p>
+<h2 id="a-simple-example">A simple example:</h2>
+<p><a href="https://blog.csdn.net/sinat_15102109/article/details/45751697">reference:</a></p>
+<ul>
+<li>
+<h3 id="open-the-ied-from-the-terminal-with-the-script">Open the IED from the terminal with the script</h3>
+</li>
+</ul>
+<p>When open the IDE from the finder, it is uable to run any simulation and receive the following error at startup.</p>
+<figure data-type="image" tabindex="1"><img src="https://sunzemin123.github.io/post-images/1568229694810.jpg" alt="" loading="lazy"></figure>
+<p>It even worse when runing the simulation:<br>
+<em>This application failed to start because it could not find or load the Qt platform plugin &quot;cocoa&quot; in &quot;&quot;.<br>
+Reinstalling the application may fix this problem.</em></p>
+<p><em>Simulation terminated with exit code: 134<br>
+Working directory:/Users/sunzemin/Documents/OMNeTWorkspace/samples<br>
+Command line: samples -m omnetpp.ini</em></p>
+<p><em>Environment variables:<br>
+PATH=/Users/sunzemin/omnetpp-5.5.1/bin::/usr/bin:/bin:/usr/sbin:/sbin<br>
+DYLDLIBRARYPATH=/Users/sunzemin/omnetpp-5.5.1/lib::<br>
+OMNETPPIMAGEPATH=/Users/sunzemin/omnetpp-5.5.1/images</em></p>
 ]]></content>
     </entry>
 </feed>
